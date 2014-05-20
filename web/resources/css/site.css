@@ -1,0 +1,302 @@
+/* 
+    Document   : site
+    Created on : Apr 21, 2013, 2:04:29 PM
+    Author     : Dragon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background: url("../images/bg.gif") no-repeat scroll center top #EBF8FF;
+    color: #4E4E4E;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+}
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+#header, #footer, #nav, #main_site {
+    display: block;
+}
+a:link {
+    color: #034AF3;
+    text-decoration: none;
+}
+a:visited {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+/*==========header==========*/
+.welcomeLogin{
+
+}
+#header {
+    color: #000000;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+}
+#logindisplay {
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 12px !important;
+    font-weight: bold;
+    margin: 5px;
+    text-align: right;
+    text-shadow: 1px 1px 2px #111111;
+}
+#logindisplay a:visited {
+    color: white;
+    text-decoration: underline;
+}
+div#title {
+    display: block;
+    text-align: left;
+}
+#header h1 {
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 32px !important;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 2px #111111;
+    height: 80px;
+}
+#logindisplay a:link {
+    color: white;
+}
+/*==========main_site==========*/
+#main_site {
+    background-color: transparent;
+    padding: 0;
+    background-color: #FFFFFF;
+    border-top: 1px solid #5C87B2;
+    font-size: 12px;
+    margin-right: 3px;
+    width: 100%;
+    /*min-height: 485px;*/
+    /*    position: relative;*/
+}
+
+/*==========M_footer==========*/
+.M_footer {
+    background: none repeat scroll 0 0 #7BCBF6;
+    color: Black;
+    font-size: 11px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+#footer {
+    line-height: normal;
+    margin: 3px 0 0;
+    text-align: center;
+}
+.M_footer {
+    background: none repeat scroll 0 0 #7BCBF6;
+    color: Black;
+    font-size: 11px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+/*==========include body==========*/
+
+.dragon_view {
+    padding: 5px;
+    width:740px;
+    /*    background-color: #7BCBF6;*/
+    /*    position: absolute;
+        top: 0px;
+        left: 0px;*/
+    float: left;
+    /*z-index: -1;*/
+}
+
+.dragon_right {
+    /*border-left: 1px solid #84CBF6;*/
+    width: 250px;
+    min-height: 133px;
+    float: right;
+    background-color: #F8F8F8;
+    /*    position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: -1;*/
+}
+
+.view_fieldset {
+    border: 1px solid #DDDDDD;
+    margin: 0px;
+    padding: 10px;
+}
+.view_container{
+    border:1px solid #DDDDDD;
+}
+.view_tiltle{
+    border:1px solid #F1F1F1;
+    background-color: #F1F1F1;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2px;
+}
+.view_body{
+    padding: 5px;
+}
+.view_talbe{
+    width: 100%;
+    border:1px solid #DDDDDD;
+    border-collapse: collapse;
+}
+.view_talbe th{
+    border:1px solid #DDDDDD;
+    margin: 0px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+.view_talbe td{
+    border:1px solid #DDDDDD;
+    margin: 0px;
+    padding: 5px;
+}
+.view_listbox{
+    border: 1px solid #DDDDDD;
+    width:300px;
+    height: 200px;
+    padding: 5px;
+    overflow: scroll;
+}
+/*==========Error message==========*/
+.error{
+    color: red;
+}
+.error_Field{
+    color: red;
+    font-style: italic;
+}
+.message{
+    color: blue;
+}
+
+/*==========End Error message==========*/
+
+/*==========login==========*/
+.login_view{
+    width:100%;
+    /*margin: auto;*/
+}
+/*==========end login==========*/
+
+/*==========paging==========*/
+.link-paging, .link-paging-left, span.link-paging-right
+{
+    display: inline-block;
+    /*    width: 18px;*/
+    height: 21px;
+    text-decoration: none; /*border: 1px solid black;*/
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.link-paging
+{
+    /*    margin-left: -4px;
+        margin-right: -4px;*/
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*==========end paging==========*/
+
+/*==========view title==========*/
+.h3_title{
+    margin-bottom: 0px;
+}
+
+hr{
+    color: #FFFFFF;
+}
+/*==========end view title==========*/
+
+/*=========Table===========*/
+
+.table_index{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+.table_index th, .table_index td { 
+    padding: 3px;
+}
+
+.table_index th { 
+    background-color: #F4F4F4;
+}
+
+.table_index table, .table_index th, .table_index td
+{
+    border: 1px solid #888888;
+}
+.notFound{
+    font-style: italic;
+    color: #888888;
+}
+
+/*=========end Table===========*/
+
+/*=========div Table===========*/
+.divTable
+{
+    display:  table;
+    border-spacing:5px;
+}
+
+.divRow
+{ 
+    display:table-row;
+}
+
+.divCell
+{
+    display:table-cell;
+    vertical-align: top;
+}
+
+/*=========end div Table===========*/
+
+/*=========view form===========*/
+.label{
+
+}
+.field{
+
+}
+.label_details{
+    font-style: italic;
+}
+.field_details{
+    font-weight: bold;
+}
+.btn{
+    width:69px;
+    height: 25px;
+}
+.textarea_1{
+    width: 400px;
+    height: 120px;
+}
+.text_1{
+    width: 200px;
+}
+.text_2{
+    width: 400px;
+}
+/*=========end view form===========*/

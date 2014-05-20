@@ -1,0 +1,116 @@
+
+#wrapper ul,
+#wrapper li,
+#wrapper span,
+#wrapper a {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#wrapper:after,
+#wrapper ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#wrapper{
+    opacity: 0.8;
+    background: -moz-linear-gradient(center top , #84CBF6 0%, #FFFFFF 100%) repeat scroll 0 0 transparent;
+    border-radius: 5px;
+}
+
+#wrapper a {
+    color: #333333;
+    display: inline-block;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    min-width: 35px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #eeeeee;
+}
+
+#nav, #nav ul {
+    list-style:  none;
+    position: relative;
+    line-height: 1.5em;
+}
+
+#nav a.dfCursor{
+    cursor: default;
+}
+
+#nav a:link, #nav a:active,
+#nav a:visited {
+    box-shadow: inset 0 0 0 1px #ffffff;
+    -moz-box-shadow: inset 0 0 0 1px #ffffff;
+    -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+    background: #bfbfbf url(images/grad_light.png) repeat-x left top;
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(50%, #e5e5e5), color-stop(51%, #d7d7d7), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+    border-bottom: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+    line-height: 28px;
+    padding: 0 28px;
+    filter: none;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    background: #ffffff url(images/grad_light.png) repeat-x left bottom;
+    background: -moz-linear-gradient(top, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9d9d9), color-stop(50%, #bfbfbf), color-stop(51%, #b0b0b0), color-stop(100%, #c7c7c7));
+    background: -webkit-linear-gradient(top, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+    background: -o-linear-gradient(top, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+    background: -ms-linear-gradient(top, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+    background: linear-gradient(to bottom, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+    filter: none;
+}
+
+#nav li {
+    float: left;
+    position: relative;
+}
+
+#nav ul {
+    position: absolute;
+    width: 12em;
+    top: auto;
+    display: none;
+}
+
+#nav li ul a {
+    width: 12em;
+    float: left;
+}
+
+#nav ul ul {
+    top: auto;
+}
+
+#nav li ul ul {
+    left: 191px;
+    margin: 0px 0 0 10px;
+}
+
+#nav li:hover ul ul, 
+#nav li:hover ul ul ul,
+#nav li:hover ul ul ul ul {
+    display: none;
+}
+
+#nav li:hover ul,
+#nav li li:hover ul,
+#nav li li li:hover ul,
+#nav li li li li:hover ul {
+    display: block;
+}

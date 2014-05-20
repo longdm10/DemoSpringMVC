@@ -1,0 +1,27 @@
+/* 
+    Document   : adminlogin
+    Created on : Apr 28, 2013, 12:16:56 AM
+    Author     : Dragon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#main_AdminLogIn {
+    background-color: #FFFFFF;
+    font-size: 12px;
+    margin: 150px auto;
+    padding: 20px 30px;
+    width: 420px;
+    opacity: 0.9;
+}
+
+#main_AdminLogIn fieldset {
+    border: 1px solid #DDDDDD;
+    margin: 0 0 1.5em;
+    padding: 0 1.4em 1.4em;
+}
+
+.admin_login_title{
+    margin-top: 0px;
+}
+
