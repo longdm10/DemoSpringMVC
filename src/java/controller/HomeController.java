@@ -18,7 +18,7 @@ public class HomeController {
         //Duong dan toi view (key de mac dinh la viewname).
         m.put("viewTitle", "Home");//Tieu de cua trang
         m.put("viewName", "home/index");//Duong dan toi trang
-        return viewPath.getGuestLayout();
+        return "share/layout_guest";
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
